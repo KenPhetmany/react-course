@@ -1,9 +1,147 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import Teacher from './teacher';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const teacher = new Teacher ("MUNG", "okokdfok");
+teacher.teach();
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+
+
+/*class Person {
+    constructor(name) {
+        this.name = name;
+    }
+    walk() {
+        console.log("walk");
+    }
+    
+};
+
+const henlo = new Person("Mash");
+
+console.log(henlo.name); */
+
+/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+
+/*const first = { name: "Mosh" };
+const second = { job: "instructor"};
+
+const combined = { ...first, ...second, location: 'Australia' };
+
+console.log(combined); */
+
+/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+
+//const first = [1, 2, 3];
+//const second = [4, 5, 6];
+
+//const combined = first.concat(second);
+//const combined = [...first, 'a', ...second, 'b'];
+
+//const clone = [...first];
+//console.log(first);
+//console.log(clone);
+
+/*const address = {
+    street: '',
+    city: '',
+    country: '',
+};
+
+/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+
+
+const street = address.street;
+const city = address.city;
+const country = address.country;
+
+const { street: st, city: ct, country} = address; */
+
+
+/*const colours = ['red','green', 'blue'];
+const items = colors.map(function(color){
+    return '<li>' + color + '</li>';
+})
+
+const colors = ['red', 'green', 'blue'];
+const items = colors.map(color => `<li>${color}<li>`);
+console.log(items); */
+
+
+/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+
+
+/* const person = {
+    talk() {
+        var self = this;
+        setTimeout(() => {
+        console.log("fuck yofgfhu", this);
+        }, 1000);
+    }
+};
+
+person.talk(); */
+
+
+//////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
+
+/*const job = [
+    { id: 1, isActive: true },
+    { id: 2, isActive: true },
+    { id: 3, isActive: false },
+];
+
+const activeJob = jobs.filter(function(job){return job.isActive})
+
+const activeJob = jobs.filter(job =>  job.isActive ); */
+
+/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+
+/*const square = function(number){
+    return number*number;
+}
+
+const square = number =>  number * number;
+
+console.log(square(5)); */
+
+/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+
+/*const person = {
+name: 'Mosh',
+walk() {
+    console.log(this);
+    }
+};
+
+person.walk();
+
+const walk = person.walk.bind (person);
+walk(); */
+
+/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
